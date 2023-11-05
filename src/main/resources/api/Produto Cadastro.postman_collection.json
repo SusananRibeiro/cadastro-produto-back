@@ -8,40 +8,40 @@
 	},
 	"item": [
 		{
-			"name": "carregar_produto",
+			"name": "Produto GET",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/produto/carregar_produto",
+					"raw": "http://localhost:8080/produtos/carregue-produto",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"produto",
-						"carregar_produto"
+						"produtos",
+						"carregue-produto"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "carregar_produto por ID",
+			"name": "Produto GET por ID",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/produto/carregar_produto/2",
+					"raw": "http://localhost:8080/produtos/carregue-produto/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"produto",
-						"carregar_produto",
+						"produtos",
+						"carregue-produto",
 						"2"
 					]
 				}
@@ -49,7 +49,7 @@
 			"response": []
 		},
 		{
-			"name": "criar_produto",
+			"name": "Produto POST",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -63,22 +63,22 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/produto/criar_produto",
+					"raw": "http://localhost:8080/produtos/crie-produto",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"produto",
-						"criar_produto"
+						"produtos",
+						"crie-produto"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "atualizar_produto por ID",
+			"name": "Produto PUT",
 			"request": {
 				"method": "PUT",
 				"header": [],
@@ -92,15 +92,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/produto/atualizar_produto/2",
+					"raw": "http://localhost:8080/produtos/atualize-produto/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"produto",
-						"atualizar_produto",
+						"produtos",
+						"atualize-produto",
 						"2"
 					]
 				}
@@ -108,20 +108,20 @@
 			"response": []
 		},
 		{
-			"name": "deletar_produto por ID",
+			"name": "Produto DELETE",
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/produto/deletar_produto/2",
+					"raw": "http://localhost:8080/produtos/delete-produto/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"produto",
-						"deletar_produto",
+						"produtos",
+						"delete-produto",
 						"2"
 					]
 				}
