@@ -7,7 +7,7 @@ spring:
       ddl-auto: update
     show-sql: true
   datasource:
-    url: jdbc:postgresql://localhost:5432/senac-jpa-solid
+    url: jdbc:postgresql://localhost:5432/cadastro-produto
     password: postgres
     username: postgres
     driverClassName: org.postgresql.Driver
